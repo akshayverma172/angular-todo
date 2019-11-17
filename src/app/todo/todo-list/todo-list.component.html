@@ -4,7 +4,7 @@
   </div>
   <div class="todo-list">
     <div *ngFor="let item of todoService.todoItemsList$ | async" class="todo-item">
-      <div [ngClass]="{ green: item.completed, red: !item.completed }"></div>
+      <div [ngClass]="{ green: item.completed, red: !item.completed }" class="circle"></div>
       <div class="title" [ngClass]="{ done: item.completed }">
         {{ item.title }}
       </div>
