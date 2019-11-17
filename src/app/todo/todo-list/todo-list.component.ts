@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { Todo } from 'src/app/shared/model/todo.model';
-import { TodoService } from 'src/app/shared/services/todo.service';
+import { Todo } from '../../shared/model/todo.model';
+import { TodoService } from '../../shared/services/todo.service';
 
 @Component({
   selector: 'app-todo-list',
