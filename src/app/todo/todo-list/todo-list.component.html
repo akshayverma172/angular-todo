@@ -1,0 +1,16 @@
+<div id="todo">
+  <div>
+    <h3 class="ptitle">Things to do today</h3>
+  </div>
+  <div class="todo-list">
+    <div *ngFor="let item of todoService.todoItemsList$ | async" class="todo-item">
+      <div [ngClass]="{ green: item.completed, red: !item.completed }"></div>
+      <div class="title" [ngClass]="{ done: item.completed }">
+        {{ item.title }}
+      </div>
+      <div class="status" *ngIf="!item.completed">
+        <button (click)="completeTask(item.id)">Complete</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+.red,
+.green {
+  max-width: 22px;
+  height: 22px;
+  border-radius: 75%;
+  margin: 5px 14px;
+}
+
+.red {
+  background: #ff5757;
+}
+.green {
+  background: #51dc89;
+}
+
+.title {
+  max-width: 46%;
+  line-height: 1.8em;
+  font-size: 18px;
+}
+.status button {
+  background: #60deff;
+  border: 1px solid #60deff;
+  border-radius: 4px;
+  padding: 7px 15px;
+  font-size: 14px;
+  width: 101px;
+  height: 36px;
+}
+
+.todo-item {
+  margin: 12px 11px;
+  margin-bottom: 20px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001a;
+  border-radius: 12px;
+  padding: 12px 25px;
+  display: flex;
+}
+
+.todo-item > div {
+  flex-grow: 1;
+}
+
+#todo {
+  width: 100%;
+  margin: auto;
+}
+
+.status {
+  text-align: right;
+}
+
+button {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+}
