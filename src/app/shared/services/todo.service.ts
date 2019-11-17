@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { concatAll, filter, toArray } from 'rxjs/operators';
-import { environment } from 'src/environments/environment';
+import { environment } from '../../../environments/environment';
 import { Todo } from '../model/todo.model';
 import { ApiService } from './api.service';
 
