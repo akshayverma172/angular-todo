@@ -38,3 +38,17 @@ h6 {
 .ptitle {
   font-size: 2em;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 800px) and (max-width: 800px) {
+  .intro {
+    width: 100% !important;
+    max-height: 227px;
+  }
+
+  h3 {
+    font-size: 1.5em !important;
+  }
+  .title {
+    line-height: 1.5em !important;
+  }
+}
