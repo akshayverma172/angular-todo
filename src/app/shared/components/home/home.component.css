@@ -48,3 +48,9 @@ button {
 .ptitle {
   color: white;
 }
+
+@media only screen and (max-width: 800px) {
+  .intro {
+    width: 100% !important;
+  }
+}
